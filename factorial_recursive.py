@@ -4,18 +4,22 @@ def factorial(n):
     else:
         return n * factorial(n - 1) #"recursion" 
 
-# Read the input number from the user
-given_number = int(input("Enter a number: "))
+def main():
+    # Read the input number from the user
+    given_number = int(input("Enter a number: "))
 
-# Calculate the factorial
-calculated_result = factorial(given_number)
+    # Calculate the factorial
+    calculated_result = factorial(given_number)
 
-# Print the factorial result
-print(f"The factorial of {given_number} is {calculated_result}")
+    # Print the factorial result
+    print(f"The factorial of {given_number} is {calculated_result}")
 
-# Print the sequence of multiplication steps
-def print_factorial_sequence(n):
-    sequence = " x ".join(str(i) for i in range(n, 0, -1))
-    print(f"The sequence: {sequence}")
+    # Print the sequence of multiplication steps
+    def print_factorial_sequence(n):
+        sequence = " x ".join(str(i) for i in range(n, 0, -1))
+        print(f"The sequence: {sequence}")
 
-print_factorial_sequence(given_number)
+    print_factorial_sequence(given_number)
+
+if __name__ == '__main__':
+    main()
