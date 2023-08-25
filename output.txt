@@ -1,0 +1,4 @@
+Original String: ABOBRIHA
+Uppercase String: ABOBRIHA
+Reversed String: AHIRBOBA
+Word List: ['ABOBRIHA']

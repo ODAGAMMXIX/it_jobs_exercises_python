@@ -13,7 +13,7 @@ def is_palindrome(word):
 def main():
     # Read the input word from the user
     word = input("Enter a word: ")
-    #CONSIO TESTAR ESSE MÉTODO?
+    #CONSIGO TESTAR ESSE MÉTODO?
     # Check if the word is a palindrome
     if is_palindrome(word):
         print(f"{word} is a palindrome!")
