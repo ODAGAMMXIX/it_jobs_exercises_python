@@ -1,3 +1,4 @@
+
 def quick_sort_ascending(arr):
     if len(arr) <= 1:
         return arr

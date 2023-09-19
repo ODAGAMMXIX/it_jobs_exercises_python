@@ -2,7 +2,7 @@ def factorial(n):
     if n == 0 or n == 1:
         return 1
     else:
-        return n * factorial(n - 1) #"recursion" 
+        return n * factorial(n - 1) #"recursion" = 5x4x3x2x1
 
 #Print the sequence of multiplication steps
 def print_factorial_sequence(n):

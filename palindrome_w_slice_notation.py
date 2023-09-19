@@ -9,7 +9,7 @@ def main():#
     # Read the input word from the user
     word = input("Enter a word: ")
     # Check if the word is a palindrome
-    if is_palindrome(word):
+    if is_palindrome(word):# == True: 
         print(f"{word} is a palindrome!")
     else:
         print(f"{word} is not a palindrome.")

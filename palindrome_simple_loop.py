@@ -1,3 +1,4 @@
+
 def is_palindrome(word):
     word = word.lower()
     length = len(word)
